@@ -2,6 +2,8 @@
 
 [中文](README.md) | [English](README_EN.md)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e4e12a3a-b0a2-473b-9184-250906b6919f/deploy-status)](https://app.netlify.com/sites/0321-zym/deploys)
+
 这是一个基于[Next.js](https://nextjs.org)开发的网站，专注于展示3月21日（春分日）的多重意义和各种国际纪念日。
 
 ## 项目介绍
