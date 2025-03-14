@@ -50,7 +50,7 @@ export default function SleepPage() {
           <p>睡眠不平等现象在全球范围内普遍存在，受到工作条件、生活环境、医疗资源获取等多种因素的影响。这一主题呼吁政策制定者、医疗专业人士和社会各界共同努力，消除睡眠健康领域的不平等，确保每个人都能获得良好的睡眠条件和睡眠障碍治疗。</p>
           
           <div className="bg-indigo-50 p-4 rounded-lg my-6">
-            <p className="font-semibold text-center">&quot;睡眠不是奢侈品，而是基本需求和基本权利。&quot;</p>
+            <p className="font-semibold text-center">&ldquo;睡眠不是奢侈品，而是基本需求和基本权利。&rdquo;</p>
           </div>
         </div>
       </section>

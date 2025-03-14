@@ -50,7 +50,7 @@ export default function PoetryPage() {
           <p>在气候变化和环境危机的背景下，诗人们通过诗歌描绘自然之美，表达对环境破坏的忧虑，呼吁人类与自然和谐共处。诗歌成为连接人类与自然的桥梁，激发人们保护地球家园的责任感。</p>
           
           <div className="bg-blue-50 p-4 rounded-lg my-6 italic">
-            <p className="text-center">&quot;大地是诗人的母亲，<br/>河流是诗人的血脉，<br/>山川是诗人的灵魂，<br/>保护自然，就是守护诗歌的源泉。&quot;</p>
+            <p className="text-center">&ldquo;大地是诗人的母亲，<br/>河流是诗人的血脉，<br/>山川是诗人的灵魂，<br/>保护自然，就是守护诗歌的源泉。&rdquo;</p>
           </div>
         </div>
       </section>

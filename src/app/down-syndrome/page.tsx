@@ -12,7 +12,7 @@ export default function DownSyndromePage() {
       <section className="mb-12 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-6 text-blue-700 border-b-2 border-blue-200 pb-2">什么是世界唐氏综合症日？</h2>
         <div className="prose prose-lg max-w-none text-gray-700">
-          <p>世界唐氏综合症日（World Down Syndrome Day）是联合国于2011年正式认可的国际纪念日，旨在提高公众对唐氏综合症的认识和理解，倡导尊重、包容和平等。每年的3月21日被选为世界唐氏综合症日，因为唐氏综合症是由第21号染色体三体（3个而不是2个）引起的，用数字表示为3/21。</p>
+          <p>世界唐氏综合症日（World Down Syndrome Day）是联合国于2011年正式认可的国际纪念日，旨在提高公众对唐氏综合症的认识和理解，倡导respect、包容和平等。每年的3月21日被选为世界唐氏综合症日，因为唐氏综合症是由第21号染色体三体（3个而不是2个）引起的，用数字表示为3/21。</p>
           <p>在这一天，世界各地通过各种活动来庆祝唐氏综合症人士的生活和成就，消除对他们的偏见和歧视，促进他们融入社会，享有平等的权利和机会。</p>
         </div>
       </section>
@@ -50,7 +50,7 @@ export default function DownSyndromePage() {
           <p>研究表明，在包容性教育环境中学习的唐氏综合症学生在学术、社交和情感发展方面都能取得更好的成果。同时，其他学生也能从多元化的学习环境中受益，培养同理心、尊重差异和包容多样性的价值观。</p>
           
           <div className="bg-blue-50 p-4 rounded-lg my-6">
-            <p className="font-semibold text-center">&quot;每个孩子都有学习的权利，每个孩子都能以自己的方式学习和成长。&quot;</p>
+            <p className="font-semibold text-center">&ldquo;每个孩子都有学习的权利，每个孩子都能以自己的方式学习和成长。&rdquo;</p>
           </div>
         </div>
       </section>

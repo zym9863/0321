@@ -50,7 +50,7 @@ export default function ForestPage() {
           <p>从卫星监测和无人机巡查，到基因技术和智能林业管理系统，创新正在改变我们保护和管理森林的方式。这些创新不仅提高了森林管理的效率和精确度，还为森林保护和可持续利用提供了新的可能性。</p>
           
           <div className="bg-green-50 p-4 rounded-lg my-6 italic">
-            <p className="text-center">&quot;创新是保护森林的新希望，<br/>科技与自然的和谐共舞，<br/>为地球的绿色未来开辟新道路。&quot;</p>
+            <p className="text-center">&ldquo;创新是保护森林的新希望，<br/>科技与自然的和谐共舞，<br/>为地球的绿色未来开辟新道路。&rdquo;</p>
           </div>
         </div>
       </section>
