@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function PoetryPage() {
   return (
     <div className="container mx-auto px-4 py-8">
@@ -72,7 +74,7 @@ export default function PoetryPage() {
           
           <div className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400">
             <h3 className="text-lg font-semibold text-blue-700 mb-2">诗歌交换</h3>
-            <p className="text-gray-700">与朋友交换喜爱的诗集，或赠送诗集作为礼物，分享诗歌的美好的。</p>
+            <p className="text-gray-700">与朋友交换喜爱的诗集，或赠送诗集作为礼物，分享诗歌的美好。</p>
           </div>
           
           <div className="bg-white rounded-lg p-4 shadow-md hover:shadow-lg transition-shadow border-t-4 border-blue-400">
