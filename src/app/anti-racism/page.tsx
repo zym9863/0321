@@ -5,7 +5,7 @@ export default function AntiRacismPage() {
       <section className="bg-gradient-to-r from-yellow-600 to-yellow-400 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">国际消除种族歧视日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">"平等、尊重、包容 — 共建没有歧视的世界"</p>
+        <p className="text-center italic">&quot;平等、尊重、包容 — 共建没有歧视的世界&quot;</p>
       </section>
 
       {/* 介绍 */}
@@ -50,7 +50,7 @@ export default function AntiRacismPage() {
           <p>随着数字技术的发展，种族歧视也呈现出新的形式，如算法偏见、网络仇恨言论、数字鸿沟等。同时，数字技术也为促进种族平等提供了新的工具和平台，如在线教育资源、社交媒体倡导、数据驱动的政策制定等。</p>
           
           <div className="bg-yellow-50 p-4 rounded-lg my-6">
-            <p className="font-semibold text-center">"在数字时代，我们必须确保技术成为消除而非加剧种族歧视的工具。"</p>
+            <p className="font-semibold text-center">&quot;在数字时代，我们必须确保技术成为消除而非加剧种族歧视的工具。&quot;</p>
           </div>
         </div>
       </section>
@@ -97,13 +97,13 @@ export default function AntiRacismPage() {
         <h2 className="text-2xl font-bold mb-6 text-center text-yellow-700">关于种族平等的名言</h2>
         <div className="space-y-6">
           <blockquote className="italic text-gray-700 border-l-4 border-yellow-300 pl-4 py-2">
-            "我有一个梦想，我的四个孩子有一天将生活在一个不是以他们的肤色，而是以他们的品格来评判他们的国家。" — 马丁·路德·金
+            &quot;我有一个梦想，我的四个孩子有一天将生活在一个不是以他们的肤色，而是以他们的品格来评判他们的国家。&quot; — 马丁·路德·金
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-yellow-300 pl-4 py-2">
-            "没有人生来就仇恨另一个人因为他的肤色、背景或宗教。人们必须学会去恨，如果他们能学会恨，他们也能被教导去爱。" — 纳尔逊·曼德拉
+            &quot;没有人生来就仇恨另一个人因为他的肤色、背景或宗教。人们必须学会去恨，如果他们能学会恨，他们也能被教导去爱。&quot; — 纳尔逊·曼德拉
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-yellow-300 pl-4 py-2">
-            "多元化是被邀请参加舞会，包容是被邀请跳舞。" — 弗尔纳·迈尔斯
+            &quot;多元化是被邀请参加舞会，包容是被邀请跳舞。&quot; — 弗尔纳·迈尔斯
           </blockquote>
         </div>
       </section>

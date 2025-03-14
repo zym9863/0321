@@ -5,7 +5,7 @@ export default function ForestPage() {
       <section className="bg-gradient-to-r from-green-600 to-green-400 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">国际森林日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">"森林是地球的肺，是生命的摇篮"</p>
+        <p className="text-center italic">&quot;森林是地球的肺，是生命的摇篮&quot;</p>
       </section>
 
       {/* 森林日介绍 */}
@@ -50,7 +50,7 @@ export default function ForestPage() {
           <p>从卫星监测和无人机巡查，到基因技术和智能林业管理系统，创新正在改变我们保护和管理森林的方式。这些创新不仅提高了森林管理的效率和精确度，还为森林保护和可持续利用提供了新的可能性。</p>
           
           <div className="bg-green-50 p-4 rounded-lg my-6 italic">
-            <p className="text-center">"创新是保护森林的新希望，<br/>科技与自然的和谐共舞，<br/>为地球的绿色未来开辟新道路。"</p>
+            <p className="text-center">&quot;创新是保护森林的新希望，<br/>科技与自然的和谐共舞，<br/>为地球的绿色未来开辟新道路。&quot;</p>
           </div>
         </div>
       </section>

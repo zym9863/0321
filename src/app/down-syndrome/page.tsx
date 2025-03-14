@@ -5,7 +5,7 @@ export default function DownSyndromePage() {
       <section className="bg-gradient-to-r from-blue-500 to-blue-300 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">世界唐氏综合症日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">"不同而不是少，多样而不是缺陷"</p>
+        <p className="text-center italic">&quot;不同而不是少，多样而不是缺陷&quot;</p>
       </section>
 
       {/* 唐氏综合症日介绍 */}
@@ -50,7 +50,7 @@ export default function DownSyndromePage() {
           <p>研究表明，在包容性教育环境中学习的唐氏综合症学生在学术、社交和情感发展方面都能取得更好的成果。同时，其他学生也能从多元化的学习环境中受益，培养同理心、尊重差异和包容多样性的价值观。</p>
           
           <div className="bg-blue-50 p-4 rounded-lg my-6">
-            <p className="font-semibold text-center">"每个孩子都有学习的权利，每个孩子都能以自己的方式学习和成长。"</p>
+            <p className="font-semibold text-center">&quot;每个孩子都有学习的权利，每个孩子都能以自己的方式学习和成长。&quot;</p>
           </div>
         </div>
       </section>

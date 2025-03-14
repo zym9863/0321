@@ -5,7 +5,7 @@ export default function PoetryPage() {
       <section className="bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">世界诗歌日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">"诗歌是人类最美的语言，是心灵的窗口"</p>
+        <p className="text-center italic">&quot;诗歌是人类最美的语言，是心灵的窗口&quot;</p>
       </section>
 
       {/* 诗歌日介绍 */}
@@ -50,7 +50,7 @@ export default function PoetryPage() {
           <p>在气候变化和环境危机的背景下，诗人们通过诗歌描绘自然之美，表达对环境破坏的忧虑，呼吁人类与自然和谐共处。诗歌成为连接人类与自然的桥梁，激发人们保护地球家园的责任感。</p>
           
           <div className="bg-blue-50 p-4 rounded-lg my-6 italic">
-            <p className="text-center">"大地是诗人的母亲，<br/>河流是诗人的血脉，<br/>山川是诗人的灵魂，<br/>保护自然，就是守护诗歌的源泉。"</p>
+            <p className="text-center">&quot;大地是诗人的母亲，<br/>河流是诗人的血脉，<br/>山川是诗人的灵魂，<br/>保护自然，就是守护诗歌的源泉。&quot;</p>
           </div>
         </div>
       </section>
@@ -97,19 +97,19 @@ export default function PoetryPage() {
         <h2 className="text-2xl font-bold mb-6 text-center text-blue-700">经典诗句</h2>
         <div className="space-y-6">
           <blockquote className="italic text-gray-700 border-l-4 border-blue-300 pl-4 py-2">
-            "人生若只如初见，何事秋风悲画扇。" — 纳兰性德《木兰词·拟古决绝词柬友》
+            &quot;人生若只如初见，何事秋风悲画扇。&quot; — 纳兰性德《木兰词·拟古决绝词柬友》
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-blue-300 pl-4 py-2">
-            "两情若是久长时，又岂在朝朝暮暮。" — 秦观《鹊桥仙·纤云弄巧》
+            &quot;两情若是久长时，又岂在朝朝暮暮。&quot; — 秦观《鹊桥仙·纤云弄巧》
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-blue-300 pl-4 py-2">
-            "春风得意马蹄疾，一日看尽长安花。" — 孟郊《登科后》
+            &quot;春风得意马蹄疾，一日看尽长安花。&quot; — 孟郊《登科后》
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-blue-300 pl-4 py-2">
-            "The Road Not Taken" — Robert Frost
+            &quot;The Road Not Taken&quot; — Robert Frost
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-blue-300 pl-4 py-2">
-            "Hope is the thing with feathers" — Emily Dickinson
+            &quot;Hope is the thing with feathers&quot; — Emily Dickinson
           </blockquote>
         </div>
       </section>

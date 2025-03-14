@@ -5,7 +5,7 @@ export default function ColorPage() {
       <section className="bg-gradient-to-r from-purple-600 to-purple-400 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">国际色彩日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">"色彩丰富了我们的世界，点亮了我们的生活"</p>
+        <p className="text-center italic">&quot;色彩丰富了我们的世界，点亮了我们的生活&quot;</p>
       </section>
 
       {/* 色彩日介绍 */}
@@ -113,13 +113,13 @@ export default function ColorPage() {
         <h2 className="text-2xl font-bold mb-6 text-center text-purple-700">关于色彩的名言</h2>
         <div className="space-y-6">
           <blockquote className="italic text-gray-700 border-l-4 border-purple-300 pl-4 py-2">
-            "色彩是生命的喜悦，因为没有色彩的世界对我们来说就像是一个坟墓。" — 奥列格·卡西尼
+            &quot;色彩是生命的喜悦，因为没有色彩的世界对我们来说就像是一个坟墓。&quot; — 奥列格·卡西尼
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-purple-300 pl-4 py-2">
-            "色彩是光的痛苦。" — 亨利·马蒂斯
+            &quot;色彩是光的痛苦。&quot; — 亨利·马蒂斯
           </blockquote>
           <blockquote className="italic text-gray-700 border-l-4 border-purple-300 pl-4 py-2">
-            "色彩是一种力量，它直接影响灵魂。" — 瓦西里·康定斯基
+            &quot;色彩是一种力量，它直接影响灵魂。&quot; — 瓦西里·康定斯基
           </blockquote>
         </div>
       </section>
