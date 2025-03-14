@@ -5,7 +5,7 @@ export default function DownSyndromePage() {
       <section className="bg-gradient-to-r from-blue-500 to-blue-300 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">世界唐氏综合症日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">&quot;不同而不是少，多样而不是缺陷&quot;</p>
+        <p className="text-center italic">&#x22;不同而不是少，多样而不是缺陷&#x22;</p>
       </section>
 
       {/* 唐氏综合症日介绍 */}

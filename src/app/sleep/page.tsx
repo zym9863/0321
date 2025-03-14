@@ -5,7 +5,7 @@ export default function SleepPage() {
       <section className="bg-gradient-to-r from-indigo-600 to-indigo-400 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">世界睡眠日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">&quot;优质睡眠，健康人生&quot;</p>
+        <p className="text-center italic">优质睡眠，健康人生</p>
       </section>
 
       {/* 睡眠日介绍 */}

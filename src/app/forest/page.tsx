@@ -5,7 +5,7 @@ export default function ForestPage() {
       <section className="bg-gradient-to-r from-green-600 to-green-400 rounded-lg p-6 mb-10 text-white shadow-lg">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-center">国际森林日</h1>
         <p className="text-lg text-center mb-2">每年3月21日</p>
-        <p className="text-center italic">&quot;森林是地球的肺，是生命的摇篮&quot;</p>
+        <p className="text-center italic">&#x22;森林是地球的肺，是生命的摇篮&#x22;</p>
       </section>
 
       {/* 森林日介绍 */}
