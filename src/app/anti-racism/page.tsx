@@ -46,7 +46,10 @@ export default function AntiRacismPage() {
       <section className="mb-12 max-w-4xl mx-auto">
         <h2 className="text-2xl font-bold mb-6 text-yellow-700 border-b-2 border-yellow-200 pb-2">2024年主题：数字时代的种族平等</h2>
         <div className="prose prose-lg max-w-none text-gray-700">
-          <p>2024年国际消除种族歧视日的主题聚焦于"数字时代的种族平等"，探讨如何应对数字环境中出现的新形式种族歧视，以及如何利用数字技术促进种族平等。</p>
+          <p>2024年国际消除种族歧视日的主题聚焦于&quot;数字时代的种族平等&quot;，探讨如何应对数字环境中出现的新形式种族歧视，以及如何利用数字技术促进种族平等。</p>
+          <div className="bg-yellow-50 p-4 rounded-lg my-6">
+            <p className="font-semibold text-center">&quot;在数字时代，我们必须确保技术成为消除而非加剧种族歧视的工具。&quot;</p>
+          </div>
           <p>随着数字技术的发展，种族歧视也呈现出新的形式，如算法偏见、网络仇恨言论、数字鸿沟等。同时，数字技术也为促进种族平等提供了新的工具和平台，如在线教育资源、社交媒体倡导、数据驱动的政策制定等。</p>
           
           <div className="bg-yellow-50 p-4 rounded-lg my-6">
