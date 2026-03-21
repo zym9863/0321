@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+中文 | [English](README-EN.md)
 
-## Getting Started
+# 3月21日 - 一个日期，四份意义
 
-First, run the development server:
+这是一个展示3月21日四个重要国际日的网站，使用 [Next.js](https://nextjs.org) 构建。
+
+## 🌟 项目简介
+
+3月21日承载着四份特殊的意义：
+
+- 🌲 **世界森林日** - 守护绿色家园
+- 📜 **世界诗歌日** - 语言的艺术
+- 🧦 **世界唐氏综合征日** - 拥抱不同
+- ✊ **国际消除种族歧视日** - 平等与尊严
+
+## 🚀 快速开始
+
+### 安装依赖
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 启动开发服务器
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+打开 [http://localhost:3000](http://localhost:3000) 查看网站。
 
-## Learn More
+### 构建生产版本
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+pnpm build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 项目结构
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+├── app/
+│   ├── page.tsx           # 首页
+│   ├── forest/            # 世界森林日页面
+│   ├── poetry/            # 世界诗歌日页面
+│   ├── down-syndrome/     # 世界唐氏综合征日页面
+│   └── anti-racism/       # 国际消除种族歧视日页面
+├── components/            # 可复用组件
+└── public/                # 静态资源
+```
 
-## Deploy on Vercel
+## 🛠️ 技术栈
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **框架**: Next.js 16.2
+- **语言**: TypeScript
+- **样式**: Tailwind CSS 4
+- **包管理**: pnpm
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 许可证
+
+本项目仅供学习和展示使用。
