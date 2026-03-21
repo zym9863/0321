@@ -8,27 +8,34 @@ export default function ActionSection({
   theme: { gradient: string; bgColor: string };
 }) {
   return (
-    <section className="px-6 py-20 md:py-28" style={{ backgroundColor: theme.bgColor }}>
-      <div className="mx-auto max-w-3xl">
-        <h2 className="mb-10 text-center text-3xl font-bold text-gray-900 md:text-4xl">
+    <section className="relative px-6 py-24 md:py-32 bg-black text-white">
+      <div className="absolute inset-0 z-0 opacity-10 bg-gradient-to-b from-transparent to-neutral-900" />
+      <div className="relative z-10 mx-auto max-w-4xl">
+        <h2 className="mb-16 text-3xl font-bold tracking-tight md:text-5xl lg:text-6xl flex items-center gap-6">
+          <span className="h-[2px] w-12 bg-white/20"></span>
           {title}
         </h2>
-        <ul className="space-y-4">
+        <div className="grid gap-6 sm:grid-cols-2">
           {actions.map((action, i) => (
-            <li
+            <div
               key={i}
-              className="flex items-start gap-4 rounded-xl bg-white p-5 shadow-sm"
+              className="group relative flex flex-col justify-between overflow-hidden border border-neutral-800 bg-neutral-950 p-8 transition-all hover:-translate-y-2 hover:border-neutral-700 md:p-10"
             >
-              <span
-                className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white"
+              <div 
+                className="absolute inset-0 z-0 opacity-0 transition-opacity duration-500 group-hover:opacity-10"
                 style={{ background: theme.gradient }}
-              >
-                {i + 1}
-              </span>
-              <p className="text-gray-700">{action}</p>
-            </li>
+              />
+              <div className="relative z-10">
+                <span className="text-4xl font-light text-neutral-700 transition-colors group-hover:text-white">
+                  {String(i + 1).padStart(2, '0')}
+                </span>
+                <p className="mt-8 text-lg text-neutral-300 leading-relaxed font-light group-hover:text-white transition-colors">
+                  {action}
+                </p>
+              </div>
+            </div>
           ))}
-        </ul>
+        </div>
       </div>
     </section>
   );
