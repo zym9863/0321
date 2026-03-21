@@ -77,32 +77,61 @@ app/
 │   └── page.tsx            # 世界诗歌日
 ├── down-syndrome/
 │   └── page.tsx            # 世界唐氏综合征日
-├── anti-racism/
-│   └── page.tsx            # 国际消除种族歧视日
-└── components/
-    ├── HeroSection.tsx     # 通用 Hero 区组件
-    ├── InfoSection.tsx     # 简介区组件
-    ├── StatsSection.tsx    # 数据/事实区组件
-    ├── ActionSection.tsx   # 行动号召区组件
-    └── PageNavigation.tsx  # 底部导航组件
+└── anti-racism/
+    └── page.tsx            # 国际消除种族歧视日
+components/
+├── HeroSection.tsx         # 通用 Hero 区组件
+├── InfoSection.tsx         # 简介区组件
+├── StatsSection.tsx        # 数据/事实区组件
+├── ActionSection.tsx       # 行动号召区组件
+└── PageNavigation.tsx      # 底部导航组件
 ```
+
+组件放在项目根目录 `components/` 下，通过 `@/components/` 路径别名引用。
 
 ## 共享组件设计
 
 ### HeroSection
-- Props: `title`, `subtitle`, `date`, `gradient`, `icon`
+- Props: `title: string`, `subtitle: string`, `date: string`, `gradient: string` (CSS 渐变值), `icon: string` (emoji 字符)
 - 全屏高度 (100vh)，flex 居中
 - 主题渐变背景
+- 淡入动画
+
+### InfoSection
+- Props: `paragraphs: string[]`, `bgColor: string` (浅色背景)
+- 渲染 2-3 段介绍文字
+- 白色/浅主题背景，深色文字
 
 ### StatsSection
-- Props: `stats: { value, label, description }[]`, `theme`
-- 横向排列 3-4 个数据卡片
+- Props: `stats: { value: string, label: string, description: string }[]`, `theme: { gradient: string, textColor: string }`
+- 横向排列 3-4 个数据卡片，移动端纵向堆叠
 - 主题色强调数字
 
+### ActionSection
+- Props: `title: string`, `actions: string[]`, `theme: { gradient: string, bgColor: string }`
+- 行动建议列表，带主题色图标
+
 ### PageNavigation
-- Props: `prevPage`, `nextPage`, `homePath`
-- 底部固定导航条
-- 显示"返回首页"和"下一个纪念日"
+- Props: `prevPage?: { href: string, label: string }`, `nextPage?: { href: string, label: string }`
+- 底部导航条，首尾页缺省 prev/next
+- 页面循环顺序: forest → poetry → down-syndrome → anti-racism
+
+## 响应式设计
+
+- **桌面 (≥1024px)**: 首页 2×2 网格，数据卡片横排
+- **平板 (768-1023px)**: 首页 2×2 网格缩小，数据卡片 2 列
+- **手机 (<768px)**: 首页单列堆叠，数据卡片单列，Hero 区字号缩小
+
+## 动效设计
+
+- **首页卡片**: hover 时 scale(1.03) + box-shadow 增强，transition 0.3s
+- **Hero 区**: 页面加载时标题和副标题依次 fade-in + translateY
+- **内容区**: 滚动进入视口时 fade-in（使用 CSS scroll-driven animations 或 IntersectionObserver）
+- **页面切换**: 利用 Next.js 内置 Link 组件的预加载
+
+## 内容策略
+
+各页面具体文案和数据由开发者在实现时编写，内容来源为各纪念日的联合国官方介绍和公开数据。开发者应确保内容准确、简洁。
 
 ## 不包含的内容
 
